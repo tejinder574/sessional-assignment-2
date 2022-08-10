@@ -5,25 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assests/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
-    <input type="radio" name="Photos" id="check1" checked>
-    <input type="radio" name="Photos" id="check1"> 
-    <input type="radio" name="Photos" id="check1"> 
-    <input type="radio" name="Photos" id="check1"> 
 
     <div class="container">
         <h1>PHOTO GALLERY APPLICATION</h1>
+        <img src="/assests/imgbin-scalable-graphics-gif-digital-cameras-best-dslr-cameras-for-weddings-QHzN9mrHCfDXDysTQ3KM3TxFr-removebg-preview.png">
         <div class="top-content">
-            <h3>Photo Gallery</h3>
-            <label for="check1">All Photos</label>
-            <label for="check1">Family Photos</label>
-            <label for="check1">Nature Photos</label>
-            <label for="check1">Blogger Photos</label>
-
-
+            <h3><b>Photo Gallery</b></h3>
+            <a href="#allphotos"><label for="check_1">All Photos</label></a>
+            <a href="#familyphotos"><label for="check_2">Family Photos</label></a>
+            <a href="#naturephotos"><label for="check_3">Nature Photos</label></a>
+            <a href="#naturephotos"><label for="check_5">Blogger Photos</label></a>
+            <input type="text" placeholder="Search.." name="search2">
+            <button type="submit"><i class="fa fa-search"></i></button>
         </div>
+        <hr>
     </div>
+    <div class="container">
+        <div id="my-container" style="display: flex; flex-wrap: wrap; "></div>
+    </div>
+    <script src="/assests/main.js"></script>
 </body>
 </html>
