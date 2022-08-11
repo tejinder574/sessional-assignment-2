@@ -55,16 +55,7 @@ h3{
     color: white;
     line-height: 60px;
 }
-label{
-    display: inline-block;
-    height: 100%;
-    padding: 0 10px;
-    margin: 0 50px;
-    line-height: 60px;
-    font-weight: bolder;
-    color: gray;
-    cursor: pointer;
-}
+
 img{
     font-weight: normal;
     font-size: 35px;
@@ -84,4 +75,7 @@ img{
 button{
     width: 30px;
     
+}
+#my-text{
+ margin-left: 900px;   
 }

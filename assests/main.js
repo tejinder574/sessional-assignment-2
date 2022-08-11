@@ -3,7 +3,7 @@ document.querySelector('#search').addEventListener('click', () => {
 
     const searchValue = document.querySelector('#my-text').value
 
-    const url = `https://www.googleapis.com/youtube/v3/search?key=AIzaSyBL7tmoBcFl44584VA4eC7RrVu_izPyyLM&part=snippet&q=${searchValue}&maxResults=50`
+    const url = `https://jsonplaceholder.typicode.com/photos`
 
     xhr.open('GET', url)
 
